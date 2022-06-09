@@ -1,0 +1,54 @@
+html{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+	background-color: black;
+}
+fieldset{
+  border-radius:20px;
+  border:none;
+  box-shadow: 4px 9px 9px 4px rgba(123, 255, 0, 0.685);
+  width:28%;
+  margin-left:30%;
+  max-width: 100%;
+  margin-top:3%;
+}
+fieldset:hover{
+  box-shadow: 4px 9px 9px 4px rgba(255, 230, 0, 0.685);
+  transition:3s;
+}
+label{
+  margin-left:10%;
+}
+input[type="email"]{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 15px;
+  border-top: none;
+  border-left: none;
+  border-right:none;
+  height:30px;
+  width:280px;
+  margin-left:10%;
+  margin-top:10%;
+  max-width:100%;
+  text-align:center;
+  box-shadow: 3px 3px  7px 3px; 
+}
+
+input[type="password"]{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 15px;
+  border-top: none;
+  border-left: none;
+  border-right:none;
+  height:30px;
+  width:280px;
+  margin-left:10%;
+  margin-top:5%;
+  max-width:100%;
+  text-align:center;
+  box-shadow: 3px 3px  7px 3px; 
+}
+
+
+
